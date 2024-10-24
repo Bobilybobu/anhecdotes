@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnhEcdotes</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AnhEcdotes by Bui Quang Anh">
+    <meta property="og:description"
+        content="Explore the conceptual photography of Bui Quang Anh, capturing deep emotions and telling stories through visual art.">
+    <meta property="og:image" content="1.jpg">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- header-->
+    <header id="header" class="vh-100 flex">
+        <script src="script.js"></script>
+        <div class="container">
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#">PRELUDE</a></li>
+                    <li><a href="engineering.html">KINETIC</a></li>
+                    <li><a href="gallery.html">ELYSIAN</a></li>
+                    <li><a href="volunteer.html">SENTIENT</a></li>
+                </ul>
+                <div class="res-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1>Bui Quang Anh</h1>
+                <h3> Practitioner of Engineering and Photographer</h3>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+        <!-- about me-->
+        <section id="about" class="about py-7">
+            <div class="container">
+                <div class="about-content grid">
+                    <div class="about-right">
+                        <img src="images/aboutme.jpg">
+                    </div>
+                    <div class="about-left">
+                        <div class="title">
+                            <h2>PROLOGUE</h2>
+                        </div>
+                        <p class="lead">
+                            Welcome to my portfolio. My name is Bùi Quang Anh, an engineer with a deep love for
+                            photography. This hand-coded website is designed not only to share my artistic perspective
+                            and the progress I’ve made but also to highlight my passion for engineering and the beauty I
+                            see in it through the lens of my camera. Start by watching the video below—I hope you enjoy
+                            the ride!
+                        </p>
+                        <button class="scroll-button"
+                            onclick="document.getElementById('preview').scrollIntoView({behavior: 'smooth'})">
+                            VIEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about me -->
+    </main>
+    <!-- end of main content-->
+
+    <!-- quote -->
+    <section id="quote" class="quote py-7">
+        <div class="container">
+            <div class="quote-content">
+                "Science is the pursuit of knowledge, and art is the pursuit of beauty. Both contribute to the pursuit
+                of truth." <br>
+                – Anonymous
+            </div>
+        </div>
+    </section>
+    <!-- end of quote-->
+
+    <!-- photo showcase -->
+    <section id="preview">
+        <br>
+        <br>
+        <video width="850" height="480" controls style="display: block; margin: 0 auto;">
+            <source src="images/engineering/vid9.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="engineering.html">
+            <button class="button">
+                START
+            </button>
+        </a>
+    </section>
+
+    <!-- end of photo showcase-->
+
+    <!-- start of footer-->
+    <footer>
+        <div class="footer-container">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.facebook.com/bui.quanganh.33821/" class="flex">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/bobily.visuals/" class="flex">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">PRELUDE</a></li>
+                    <li><a href="engineering.html">KINETIC</a></li>
+                    <li><a href="gallery.html">ELYSIAN</a></li>
+                    <li><a href="volunteer.html">SENTIENT</a></li>
+                </ul>
+            </div>
+            <div style="font-size: small; color: white;">
+                coded by Bui Quang Anh
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer-->
+</body>
+
+</html>
