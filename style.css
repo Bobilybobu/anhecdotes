@@ -90,7 +90,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/background.JPG') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('background.JPG') center/cover no-repeat fixed;
     height: 70vh;
     /* Full viewport height */
 }
@@ -390,13 +390,13 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/background2.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('background2.jpg') center/cover no-repeat fixed;
     height: 70vh;
     /* Full viewport height */
 }
 
 #image-gallery {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/27.JPG') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('27.JPG') center/cover no-repeat fixed;
 }
 
 .gallery {
@@ -472,7 +472,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/engineering/8.JPG') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('engineering/8.JPG') center/cover no-repeat fixed;
     height: 70vh;
     /* Full viewport height */
 }
@@ -544,7 +544,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/background3.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('background3.jpg') center/cover no-repeat fixed;
     height: 70vh;
     /* Full viewport height */
 }
